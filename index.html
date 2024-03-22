@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1400">
+  <title>BRAND</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <!-- 웹폰트 -->
+
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/main_style.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+
+</head>
+<style>
+  .inner_content {
+    position: relative;
+    height: 740px;
+  }
+
+
+  .swiper {
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    height: 100%;
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 18%;
+    box-sizing: border-box;
+  }
+
+  .mySwiper .swiper-slide {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 70%;
+    width: 25%;
+    color: rgb(167, 167, 167);
+    font-size: 15px;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    background-color: rgba(219, 200, 136, 0.6);
+    color: white;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .banner {
+    position: relative;
+  }
+
+  .menu {
+    position: absolute;
+    top: 647px;
+    left: 0;
+  }
+
+  span {
+    font-weight: bold;
+    color: yellow;
+  }
+</style>
+
+<body>
+  <div id="wrap">
+    <div id="inner_header">
+      <div class="header">
+        <div class="inner_top">
+          <div class="top">
+            <h1>
+              <a href="#">
+                <img src="./images/logo.png" alt="">
+              </a>
+            </h1>
+            <div class="util_wrap">
+              <ul class="util">
+                <li class="english_font"><a href="#">Login</a></li>
+                <li class="english_font"><a href="#">Order</a></li>
+                <li class="english_font"><a href="#">Lang</a></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="gnb">
+            <li><a href="./sub/sub5.html">Brand</a>
+            <div class="submenu bg1">
+              <div class="submenu_inner submenu_inner1">
+                <div class="submenu_txt">
+                  <h2 class="align">Brand</h2>
+                  <p class="title_txt">향기의 신전, 크리테리오
+                    <br>크리테리오만의 제품으로 신비로운 순간을 품어보세요.
+                  </p>
+                  <ul>
+                    <ul class="submenu_link brandmenu_txt">
+                      <li><a href="./sub/sub5.html">Our name</a></li>
+                      <li><a href="./sub/sub5.html">Our Story</a></li>
+                      <li><a href="./sub/sub5.html">Our Brand</a></li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+            </div> 
+          </li>
+            <li><a href="./sub/sub1.html">Perfume</a>
+              <div class="submenu bg1">
+                <div class="submenu_inner">
+                    <div class="submenu_text">
+                        <h2 class="submenu_title">Criterio's Collec perfume</h2>
+                        <p class="title_txt">크리테리오만의 신비로운 향수들을 만나보세요</p>
+                        <ul class="submenu_link submenu_wrap2">
+                          <li><a href="./sub/sub1.html#perfume_sub1"> Jue de la Fleurs d'Amour</a></li>
+                          <li><a href="sub1.html#perfume_sub2"> Sourire de la Foret</a></li>
+                          <li><a href="/sub1.html#perfume_sub3"> Refined Serenity</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu_photo_wrap">
+                        <ul class="submenu_photo">
+                            <li><img src="images/sub_bgimg.png" alt="perfumemenu"></li>
+                            <li><img src="images/sub_bgimg2.png" alt="perfumemenu2"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div></li>
+            <li><a href="./sub/sub6.html">Body & Skin Care</a>
+              <div class="submenu bg1">
+                <div class="submenu_inner">
+                    <div class="submenu_text">
+                        <h2 class="submenu_title">Body & Skin Care Item</h2>
+                        <p class="title_txt">자연 허브 추출물로 만들어진 제품들로 건강하게 케어해줍니다</p>
+                        <ul class="submenu_link submenu_wrap2">
+                            <li><a href="./sub/sub6.html#care_sub1"> Asential Oil</a></li>
+                            <li><a href="./sub/sub6.html#care_sub2"> Shampoo</a></li>
+                            <li><a href="./sub/sub6.html#care_sub3"> Soap</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu_photo_wrap">
+                        <ul class="submenu_photo">
+                            <li><img src="images/sub_bgimg3.png" alt="perfumemenu"></li>
+                            <li><img src="images/sub_bgimg4.png" alt="perfumemenu2"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div></li>
+            <li><a href="./sub/sub2.html">Home Fragrance</a>
+              <div class="submenu bg1">
+                <div class="submenu_inner">
+                    <div class="submenu_text">
+                        <h2 class="submenu_title">Diffuser & Candle</h2>
+                        <p class="title_txt">하나의 제품만으로도 방 안을 향기롭고 화사하게 바꿔줍니다</p>
+                        <ul class="submenu_link submenu_wrap2">
+                            <li><a href="./sub/sub2.html"> Diffuser</a></li>
+                            <li><a href="./sub/sub7.html"> Candle</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu_photo_wrap">
+                        <ul class="submenu_photo">
+                            <li><img src="images/sub_bgimg5.png" alt="perfumemenu"></li>
+                            <li><img src="images/sub_bgimg6.png" alt="perfumemenu2"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div></li>
+            <li><a href="./sub/sub8.html">Notice</a>
+              <div class="submenu bg1">
+                <div class="submenu_inner">
+                    <div class="submenu_text">
+                        <h2 class="submenu_title">Notice</h2>
+                        <p class="title_txt">고객님들이 모두 만족하실수 있게 최선을 다해
+                          답변해드리겠습니다</p>
+                        <ul class="submenu_link submenu_wrap2">
+                            <li><a href="./sub/sub8.html"> Notice</a></li>
+                            <li><a href="./sub/sub3.html"> Promotion</a></li>
+                            <li><a href="./sub/sub9.html"> Review</a></li>
+                        </ul>
+                    </div>
+                    <div class="submenu_photo_wrap">
+                        <ul class="submenu_photo">
+                            <li><img src="images/sub_bgimg7.png" alt="perfumemenu"></li>
+                            <li><img src="images/sub_bgimg8.png" alt="perfumemenu2"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="container1">
+      <div class="content1">
+        <!-- 배경/가운데-->
+        <div class="gallery">
+          <div class="card"><a href="./sub/sub5.html#brand_sub1">
+            <div class="front">
+              <img src="./images/taro_front.png" alt="카드뒷면">
+            </div>
+            <div class="back">
+              <img src="./images/taro1.png" alt="카드1"></a>
+            </div>
+          </div>
+          <div class="card card2"><a href="./sub/sub5.html#brand_sub2">
+            <div class="front">
+              <img src="./images/taro_front.png" alt="카드뒷면">
+            </div>
+            <div class="back">
+              <img src="./images/taro2.png" alt="카드2"></a>
+            </div>
+          </div>
+          <div class="card"><a href="./sub/sub5.html#brand_sub3">
+            <div class="front">
+              <img src="./images/taro_front.png" alt="카드뒷면">
+            </div>
+            <div class="back">
+              <img src="./images/taro3.png" alt="카드3"></a>
+            </div>
+          </div>
+        </div>
+        <p>카드위에 마우스를 올려보세요</p>
+
+      </div>
+    </div>
+    <div id="container2">
+      <div class="container2_wrap">
+        <div class="inner_content">
+          <!-- swiper -->
+          <div style="--swiper-navigation-color: #ffffff; --swiper-pagination-color: #fff"
+            class="swiper mySwiper2 banner">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="./sub/sub1.html#furufme_sub1">
+                  <img src="./images/banner3.png" alt="신상품향수링크"></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="./sub/sub3.html"><img src="./images/banner2.png" alt="프로모션"></a>
+              </div>
+              <div class="swiper-slide">
+                <a href="./sub/sub3.html"><img src="./images/banner1.png" alt="프로모션"></a>
+              </div>
+
+            </div>
+          </div>
+          <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+
+          <div thumbsSlider="" class="swiper mySwiper menu">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <p>
+                  <span>
+                    NEW</span> 상품 출시
+                  <br>JEU DE FLEURS D'Amour
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <p>
+                  CRITERIO
+                  <br>체험형 플래그십 스토어
+              </div>
+              <div class="swiper-slide">
+                <p>
+                  Body Care
+                  <br>& Hair Care
+                </p>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="content2">
+          <div class="content2_wrap">
+            <h1><img src="./images/collec_logo.png" alt=""></h1>
+            <div class="line">
+
+            </div>
+            <p>향기의 마법,
+              <br>특별한 순간을 품어보세요
+            </p>
+          </div>
+          <div id="collec_tap">
+            <ul class="collec">
+              <li class="on">
+                <a href="index.html#collec_tap javascript:return false;">
+                  <img src="./images/best_fume1.png" alt="">
+                  <p class="perfume_best">Jeu de Fleurs d'Amour
+                    <br>사랑의 꽃 놀이
+                  </p>
+
+                </a>
+                <div class="wallpaper_wrap">
+                  <div class="wallpaper_left">
+                    <img src="./images/wallpaper1_1.png" alt="">
+                  </div>
+                  <div class="wallpaper_right">
+                    <div class="right_txt wallpaper1">
+                      <h1 class="e_point">Jue de Fleurs d'amour</h1>
+                      <p class="name_ko">사랑의 꽃놀이</p>
+                      <p class="txt_box">아름다움과 사랑을 상징하는
+                        <br>아프로디테를 떠올리며 만든
+                        <br>이 향수는 마치 정원을
+                        <br>거닐며 행복한 순간을
+                        <br>만끽하는 듯한 느낌의 향
+                      </p>
+
+                      <h2>NOTES</h2>
+                      <p class="notes">Top : 화이트로즈,자스민,피오니
+                        <br>Middle :레드 베리,복숭아
+                        <br>Base : 암버,머스크,베르가모트
+                      </p>
+                      <p class="add_link"><a href="./sub/sub1.html#perufme_sub1">제품보러가기</a></p>
+
+
+                    </div>
+                    <div class="right_img">
+                      <img src="./images/wallpaper1_2.png" alt="">
+                      <img src="./images/wallpaper1_3.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+              </li>
+              <li>
+                <a href="index.html#collec_tap javascript:return false;">
+                  <img src="./images/best_fume2.png" alt="">
+                  <p class="perfume_best">Sourire de la Foret
+                    <br>숲의 미소
+                  </p>
+                </a>
+                <div class="wallpaper_wrap">
+                  <div class="wallpaper_left">
+                    <img src="./images/wallpaper2_1.png" alt="">
+                  </div>
+                  <div class="wallpaper_right">
+                    <div class="right_txt wallpaper2">
+                      <h1 class="e_point">Sourire de la Foret</h1>
+                      <p class="name_ko">숲의 미소</p>
+                      <p class="txt_box"> 자연과 동물을 상징하는
+                        <br>아르테미스를 떠올리며
+                        <br>중성적인 느낌을 살린 이 향수는
+                        <br>자연의 숲 속을 연상시키며,
+                        <br>그 숲 속을 걷고 있는 듯한
+                        <br>느낌을 주는 우디향에
+                        <br> 편안함과 시원함이 느껴지는 향
+                      </p>
+                      <h2>NOTES</h2>
+                      <p class="notes">Top :라벤더,레몬,그린 리프
+                        <br>Middle : 카모마일,재스민,러너클러스
+                        <br>Base : 로즈마리,우디 노트,바닐라
+                      </p>
+                      <p class="add_link add_link2"><a href="./sub/sub1.html#perfume_sub2">제품보러가기</a></p>
+
+
+                    </div>
+                    <div class="right_img">
+                      <img src="./images/wallpaper2_2.png" alt="">
+                      <img src="./images/wallpaper2_3.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+              </li>
+              <li>
+                <a href="index.html#collec_tap javascript:return false;"> <img src="./images/best_fume3.png" alt="">
+                  <p class="perfume_best">Refined Serenity
+                    <br>세련된 평온함
+                  </p>
+                </a>
+                <div class="wallpaper_wrap">
+                  <div class="wallpaper_left">
+                    <img src="./images/wallpaper3_1.png" alt="">
+                  </div>
+                  <div class="wallpaper_right">
+                    <div class="right_txt wallpaper3">
+
+                      <h1 class="e_point">Refined Serenity</h1>
+                      <p class="name_ko">세련된 평온함</p>
+                      <p class="txt_box">강력하고 위엄있는 여신인 헤라를
+                        <br>상상하며 만든 이 향수는
+                        <br>여성스러운느낌과 우아함이
+                        <br>느껴지도록 꽃 향과 과일 향을
+                        <br>적절히 배합해 포근하면서도
+                        <br>우아한 느낌을 표현한 향수
+                      </p>
+                      <h2>NOTES</h2>
+                      <p class="notes">Top : 베르가모트,그린애플,블랙커런트
+                        <br>Middle : 피오니,자스민,로즈
+                        <br>Base : 암버,바닐라,패츌리
+                      </p>
+                      <p class="add_link add_link3"><a href="./sub/sub1.html#perfume_sub3">제품보러가기</a></p>
+
+
+                    </div>
+                    <div class="right_img">
+                      <img src="./images/wallpaper3_2.png" alt="">
+                      <img src="./images/wallpaper3_3.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="container3">
+      <div class="body">
+        <div class="care">
+          <h1>Skin & Hair care</h1>
+          <div class="line"></div>
+          <div class="care_txt">
+            <p>크리테리오의 메인 향으로 만들어진
+              <br>스킨,헤어 제품으로 집에서 간편한 힐링 Time
+            </p>
+            <div class="link_box">
+              <p class="care_link care_link1"><a href="./sub/sub6.html#care_sub1">
+                  바디케어제품 보러가기 ></a>
+              </p>
+              <p class="care_link care_link1"><a href="./sub/sub6.html#care_sub2">
+                  헤어제품 보러가기 >
+              
+                </a>  </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" healing">
+        <div class="care care2">
+          <div class="care_txt2">
+            <h1>Deffuser & Candle</h1>
+            <div class="line"></div>
+            <p>당신의 가까운 곳에서 당신에게 힐링을 선사합니다
+              <br>디퓨저,캔들로 집안의 분위기를 바꿔보세요
+            </p>
+            <div class="link_box">
+              <p class="care_link care_link2"><a href="./sub/sub2.html">
+                  디퓨저제품 보러가기 >
+                </a>
+              </p>
+              <p class="care_link care_link2"><a href="./sub/sub7.html">
+                  캔들제품 보러가기 >
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="container4">
+      <div class="content4_wrap">
+        <h1>Products</h1>
+        <p> 하루의 시작과 끝을 더욱 정성스럽게 최상의 원료, 섬세한 조향을 바탕으로
+          <br> 크리테리오만의 신비롭고 독특한 제품들을 소개합니다.
+        </p>
+        <h1 class="products_flower"><img src="./images/flower.png" alt=""></h1>
+        <div class="popular_wrap">
+          <div class="popular_left">
+            <h3>인기제품</h3>
+            <p>가장 사랑을 많이 받은
+              <br>제품들입니다
+            </p>
+
+            <!-- 760px -->
+            <div class="swiper mySwiper3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>Natural soap</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide2.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>Skin oil</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide3.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>Perfume 3Set</p>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide4.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>Criterio's Shampoo</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide5.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>Jeu de Fleurs D'Amour</p>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide6.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>Sourire de la Foret</p>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide7.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>DifFuser1</p>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide8.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>Diffuser2</p>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide9.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>Diffuser3</p>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide10.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>Skin Oil</p>
+
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="slide_wrap">
+                    <div class="slide_wrap_img">
+                      <a href="javascript:return false;"><img src="./images/slide11.png" alt=""></a>
+                    </div>
+                    <div class="slide_txt">
+                      <p>Perfume 2Set</p>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div> -->
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+          <div class="popular_right">
+            <!--  -->
+            <img src="./images/cadle_pakage.png" alt="">
+
+          </div>
+
+        </div>
+        <div id="fade">
+          <ul>
+            <li><img src="images/popular_banner1.png" alt="program"></li>
+            <li><img src="images/popular_banner2.png" alt="program"></li>
+            <li><img src="images/popular_banner3.png" alt="program"></li>
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <div id="container5">
+      <div class="promotion_wrap">
+        <h1 class="e_point">Gift pakage</h1>
+
+        <ul class="promotion">
+          <li>
+              <img src="./images/promotion_perfume.png" alt="">
+            <p><strong>Perfume pakage</strong></p>
+            <p class="pakege_txt">향수 2Set을 5% 할인 가격으로
+              <br>구매 가능한 패키지입니다.
+            </p>
+          </li>
+          <li>
+              <img src="images/pakage_diffuser.png" alt="">
+         
+            <p><strong>Diffuser pakage</strong></p>
+            <p class="pakege_txt">디퓨저 3Set을 할인된 가격으로
+              <br>구매 가능한 패키지입니다.
+            </p>
+          </li>
+          <li>
+              <img src="images/pakage_bathbom.png" alt="">
+        
+            <p><strong>BathBom pakage</strong></p>
+            <p class="pakege_txt">배쓰밤 종류별로 2개씩 들어있는 패키지
+              <br> 총 6개를 할인된 가격으로 만나보세요
+            </p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div id="container6">
+      <!-- 높 2270 -->
+      <div class="event_wrap">
+        <h1><img src="./images/promotionlogo.png" alt=""></h1>
+        <p class="more">+더보기</p>
+        <ul class="event">
+          <li><a href="./sub/sub3.html">
+              <img src="images/event1.png" alt="">
+            </a>
+            <p class="event_p"><a href="">GRAND OPENING EVENT</a></p>
+            <p class="day">기간 2024.01.01 ~ 2024.01.31</p>
+            <p class="event_txt">오픈 기념 이벤트로 방문하시는 분들께
+              <br>3ml 샘플을 랜덤으로 증정해드립니다.
+            </p>
+          </li>
+          <li><a href="./sub/sub3.html">
+              <img src="images/event2.png" alt="">
+            </a>
+            <p class="event_p"><a href="">나만의 향기를 만들어 볼수 있는 기회</a></p>
+            <p class="day">기간 2024.01.01 ~ 2024.01.31</p>
+            <p class="event_txt">내가 좋아하는 향들을 이용해
+              <br>나만의 향수를 만들어 볼 수 있는 기회
+              <br>향수에 대해 더 알아 보고, 만드는 경험을 선사합니다
+            </p>
+          </li>
+          <li><a href="./sub/sub3.html">
+              <img src="images/event3.png" alt="">
+            </a>
+            <p class="event_p"><a href="">향수 구매시 비누 증정 </a></p>
+            <p class="day">기간 2024.01.01 ~ 2024.01.31</p>
+            <p class="event_txt">향수(50ML이상) 같은 향으로
+              <br> 출시된 비누를 하나 더 드립니다!
+              <br>절호의 기회! 절대 놓치지 마세요
+            </p>
+          </li>
+        </ul>
+        <div class="sns">
+          <!-- 345,875 -->
+          <h1><img src="./images/snslogo.png" alt=""></h1>
+          <div class="sns_wrap">
+            <div class="sns_left">
+              <div class="review_wrap">
+         
+                  <p class="review"><strong>포인트이벤트</strong>
+                    <br>카카오플러스 친구하고
+                    <br> 1,000P 받자!
+                  </p>
+
+              </div>
+              <div class="point_wrap">
+          
+                  <p class="point">웰컴<strong> 멤버쉽 </strong>혜택
+                    <br>WELCOME CRITERIO
+                    <br>최대 5000원 쿠폰 지급!
+                  </p>
+           
+              </div>
+
+            </div>
+            <div class="sns_right">
+              <div class="sns_list_wrap">
+                <div class="sns_list">
+                  <ul>
+                    <li>
+                      <img src="images/sns_candle.png" alt="">
+                    </li>
+                    <li>
+                      <img src="./images/sns_logo.png" alt="">
+                    </li>
+                    <li class="sns_hand">
+                      <img src="./images/sns_soap2.png" alt="">
+                    </li>
+                  </ul>
+                </div>
+                <div id="textflow">
+                  <div class="animated">
+                    <div class="track">
+                      <p>
+                        &nbsp;#싱그러운&nbsp;#시트러스한&nbsp;#사랑스러운&nbsp;
+                        #포근한
+                        &nbsp;#힐링&nbsp;#매혹적인&nbsp;#섬세한&nbsp;#우디향&nbsp;#장미향&nbsp;#향긋한&nbsp;#상큼한&nbsp;#정원같은
+                        &nbsp;#싱그러운&nbsp;#시트러스한&nbsp;#사랑스러운&nbsp;
+                        #포근한
+                        &nbsp;#힐링&nbsp;#매혹적인&nbsp;#섬세한&nbsp;#우디향&nbsp;#장미향&nbsp;#향긋한&nbsp;#상큼한&nbsp;#정원같은
+                        &nbsp;#싱그러운&nbsp;#시트러스한&nbsp;#사랑스러운&nbsp;
+                        #포근한
+                        &nbsp;#힐링&nbsp;#매혹적인&nbsp;#섬세한&nbsp;#우디향&nbsp;#장미향&nbsp;#향긋한&nbsp;#상큼한&nbsp;#정원같은
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="sns_list list2">
+                  <ul>
+                    <li><img src="images/review1.png" alt=""></li>
+                    <li><img src="images/review2.png" alt=""></li>
+                    <li><img src="images/review4.png" alt=""></li>
+                    <li><img src="images/review3.png" alt=""></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="footer">
+      <div class="inner_footer">
+        <div class="footer_link">
+          <ul>
+            <li class="strong">Link</li>
+            <li>이용약관</li>
+            <li>개인정보처리방침</li>
+            <li>사업자 정보 확인</li>
+          </ul>
+          <ul>
+            <li class="strong">Help</li>
+            <li>배송안내</li>
+            <li>자주묻는질문</li>
+            <li>매장안내</li>
+          </ul>
+          <ul>
+            <li class="strong">Notice</li>
+            <li>공지사항</li>
+            <li>Promotion</li>
+            <li>Review</li>
+          </ul>
+
+          <div class="footer_sns">
+            <p class="strong">Social</p>
+            <ul class="social_sns">
+              <li><a href="https://www.kakaocorp.com/page/">
+                  <img src="./images/chat_icon.png" alt="">
+                </a></li>
+              <li><a href="https://www.facebook.com/?locale=ko_KR">
+                  <img src="./images/facebook_icon.png" alt="">
+                </a></li>
+              <li><a href="https://www.instagram.com/">
+                  <img src="./images/instagram_icon.png" alt="">
+                </a></li>
+              <li><a href="https://www.youtube.com/?kr">
+                  <img src="./images/youtube_icon.png" alt="">
+                </a></li>
+              <li><a href="https://twitter.com/?lang=ko">
+                  <img src="./images/twitter_icon.png" alt="">
+                </a></li>
+            </ul>
+            <ul class="service_wrap">
+              <li><img src="./images/call2_icon.png" alt="">&nbsp; 상담봇과 채팅하기 </li>
+              <li><img src="./images/call_icon.png" alt="">&nbsp; 1:1 상담하기</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./js/script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 0,
+      slidesPerView: 3,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {     //자동슬라이드 (false-비활성화)
+        delay: 2500, // 시간 설정
+        disableOnInteraction: false, // false-스와이프 후 자동 재생
+      },
+
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+    var swiper = new Swiper(".mySwiper3", {
+      spaceBetween: 20,
+      centeredSlides: false,
+      slidesPerView: 3,
+      autoplay: {
+        delay: 1300,
+        disableOnInteraction: false,
+      },
+      loopAdditionalSlides: 1,
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+  </script>
+</body>
+
+
+</html>

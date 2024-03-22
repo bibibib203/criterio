@@ -1,0 +1,705 @@
+@charset "utf-8";
+
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+select,
+table,
+td,
+textarea,
+th,
+ul,
+span,
+strong,
+em {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+#wrap {
+    min-width: 1400px;
+  }
+  
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    font-size: 14px;
+    /*1rem지정하기*/
+}
+
+body {
+    font-family: 'KoddiUDOnGothic-Regular';
+    line-height: 24px;
+    color: #2b2b2b;
+}
+@font-face {
+    font-family: 'KoddiUDOnGothic-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/KoddiUDOnGothic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.e_point{
+    font-size: 30px;
+    font-family: 'Satista';
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+img{
+    display: block;
+}
+/* Poppins */
+
+
+
+
+#inner_header {
+	font-size: 16px;
+    position: relative;
+    height: 1000px;
+    background: url(../images/perfume_banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.header {
+    background-color: rgba(255,255,255,0.5);
+    height: 110px;
+}
+
+/* .inner_top {
+    width: 1320px;
+    margin: 0 auto;
+} */
+
+.top {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    position: relative;
+}
+
+.util_wrap {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.util {
+	font-size:13px;
+    display: flex;
+    color: #555;
+}
+.util> li{
+    padding: 0 10px;
+	cursor: pointer;
+}
+.util> li:hover{
+    color: white;
+}
+
+.gnb {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+
+}
+.gnb>li {
+    width: 150px;
+}
+.gnb>li:nth-child(3){
+    margin: 0 15px;
+}
+.gnb>li>a{
+    text-align: center;
+    display: block;
+    padding: 8px 0px 6px;
+}
+.gnb>li>a:hover{
+    color: #835c6d;
+    border-bottom: 2px solid #835c6d;
+}
+
+/* submenu */
+
+.bg1{
+    background-color: rgba(255,255,255,0.8);
+}
+.submenu{
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    height: 380px;
+    z-index: 9;
+    display: none;
+}
+.gnb> li:hover> .submenu{
+    display: block;
+}
+.submenu_inner{
+    padding: 40px 0px;
+    color: #756673;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.submenu_inner1{
+        flex-direction: column;
+        align-items: center;
+}
+.submenu_link{
+    padding: 20px 0px;
+    display: flex;
+}
+.submenu_link >li a{
+    opacity: 0.5;
+}
+.submenu_link >li a:hover{
+    opacity:1;
+}
+
+.brandmenu_txt>li a{
+    opacity: 0.5;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    display: block;}
+.brandmenu_txt{
+    padding: 30px 0px;
+}
+
+
+.brandmenu_txt>li:nth-child(2) a{
+    margin: 0px 30px;
+}   
+.align{
+    padding: 30px;
+    text-align: center;
+}
+.title_txt{
+    font-size: 12px;
+}
+
+.submenu_title{
+   padding: 80px 0px;
+   text-align: left;
+   padding-bottom: 10px;
+}
+.submenu_wrap2{
+    flex-direction: column;
+    text-align: left;
+}
+
+.submenu_photo{
+    margin-top: 20px;
+    display: flex;
+}
+.submenu_photo li img{
+    display: block;}
+.submenu_photo>li:nth-child(2){
+    margin-left: 20px;
+}
+/* header E */
+
+.criterio_slogan{
+	margin-top : 30px;
+	border-bottom: 2px solid rgb(195, 195, 195);
+	margin-bottom: 20px;
+}
+
+.intro_wrap {
+	text-align: center;
+	height: 1900px;
+	margin: 80px auto;
+	width: 1320px;
+}
+
+video {
+	width: 1000px;
+	margin: 50px 0px 80px;
+}
+
+.content_wrap {
+	background: url(../images/perfume2_bg.png) no-repeat center;
+	align-items: center;
+	margin: 0 auto;
+	height: 2426px;
+	box-sizing: border-box;
+	padding-top: 220px;
+}
+.content_wrap2{
+	background: url(../images/perfume1_bg.png) no-repeat center;
+}
+.content_wrap3{
+	background: url(../images/perfume3_bg.png) no-repeat center;
+}
+.perfume1{
+	align-items: center;
+	margin: 0 auto;
+	height: 2426px;
+	box-sizing: border-box;
+	padding-top: 300px;
+}
+.cellec_logo{
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: center;
+}
+.flower_hand {
+	padding: 30px 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.flower_wrap ul {
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+
+}
+.flower_wrap ul> li{
+	opacity: 0.3;
+	cursor: pointer;
+
+}
+.flower_wrap ul> li:hover{
+	opacity: 1;
+}
+
+.flower_wrap ul li:nth-child(2) {
+	margin: 0 30px;
+}
+
+.flowerlist {
+	display: none;
+	padding: 30px;
+	box-sizing: border-box;
+	line-height: 25px;
+	height: 300px;
+	text-align: left;
+	width: 330px;
+	color: white;
+
+}
+.flowerlist p{
+	padding-top: 20px;
+}
+.intro_wrap{
+	position: relative;
+}
+
+.list_1{
+	position: absolute;
+	bottom: 100px;
+	left: 83px;
+	
+	background-color: #cb7d6ab6;
+}
+.list_2{
+	position: absolute;
+	bottom: 100px;
+	left:495px;
+	background-color: #86ab9cc9;
+}
+.list_3{
+	background-color: #ab869dbb;
+	position: absolute;
+	bottom: 100px;
+	right:83px;
+}
+.perfume_wrap, .perfume_wrap2, .perfume_wrap3 {
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.884);
+	margin-top: 40px;
+	width: 1100px;
+	height: 1900px;
+	padding: 150px 0px;
+	box-sizing: border-box;
+}
+
+/* 클릭이미지교체 */
+
+#section_wrap {
+	margin: 0 auto;
+	height: 300px;
+	width: 900px;
+	padding-top: 100px;
+}
+
+.section {
+	width: 90%;
+	height: 550px;
+	float: right;
+	position: relative;
+}
+
+.link_wrap {
+	width: 60%;
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+
+.link {
+	display: flex;
+	flex-direction: column;
+}
+
+.link li {
+	margin-bottom: 10px;
+	width: 23%;
+	height: 100px;
+	float: left;
+	background: #aaa;
+
+	box-sizing: border-box;
+}
+
+.link>li img {
+	width: 100%;
+	height: 100px;
+}
+
+.link li a {
+	display: block;
+	height: 30px;
+}
+
+.img_wrap {
+	position: absolute;
+	top: 0;
+	right: 30px;
+	width: 70%;
+}
+
+.img_slide {
+	position: relative;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 500px;
+	background-size: cover;
+}
+
+.img1 {
+	z-index: 2;
+	background: url(../images/fume2_slide1.png) no-repeat left center;
+}
+
+.img2 {
+	background: url(../images/fume2_slide2.png) no-repeat left center;
+}
+
+.img3 {
+	background: url(../images/fume2_slide3.png) no-repeat left center;
+}
+.img4 {
+	z-index: 2;
+	background: url(../images/fume_slide1.png) no-repeat left center;
+}
+
+.img5 {
+	background: url(../images/fume_slide2.png) no-repeat left center;
+}
+
+.img6 {
+	background: url(../images/fume_slide3.png) no-repeat left center;
+}
+
+.img7 {
+	z-index: 2;
+	background: url(../images/fume3_slide1.png) no-repeat left center;
+}
+
+.img8 {
+	background: url(../images/fume3_slide2.png) no-repeat left center;
+}
+
+.img9 {
+	background: url(../images/fume3_slide3.png) no-repeat left center;
+}
+
+
+
+
+/* 사진탭끝 */
+
+.perfume_txt {
+	text-align: center;
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 280px;
+}
+
+.notes {
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 20px 0px 20px 15px;
+	text-align: left;
+	width: 300px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.txt_p {
+	padding: 20px 0px 40px;
+}
+
+.pakageimg_wrap {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	width: 1000px;
+	height: 334px;
+	padding-top: 40px;
+}
+
+.right_img {
+	width: 500px;
+}
+
+.right_img img {
+	width: 100%;
+}
+
+.left_img {
+	width: 250px;
+}
+
+.left_img img {
+	width: 100%;
+	height: 334px;
+}
+
+.add {
+	cursor: pointer;
+	margin-top: 60px;
+	display: inline-block;
+	border: 1px solid #a9a9a9;
+	padding: 10px 40px;
+}
+
+
+.add:hover {
+	background-color: black;
+	color: white;
+}
+
+#footer {
+	box-sizing: border-box;
+	padding: 50px 0px;
+	height: 300px;
+	background-color: #F2F2F2;
+}
+
+.inner_footer {
+	margin: 0 auto;
+	width: 1320px;
+}
+
+.footer_link {
+	display: flex;
+	justify-content: space-between;
+}
+
+.strong {
+	padding: 10px 0px;
+	width: 260px;
+	border-bottom: 2px solid black;
+	margin: 10px 0px;
+}
+
+.footer_sns {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer_sns>ul {
+	display: flex;
+}
+
+.footer_sns>ul>li {
+	display: flex;
+	padding-bottom: 10px;
+}
+
+.footer_sns>ul>li {
+	margin: 5px 5px;
+}
+
+.strong {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.sns_hand img {
+	width: 431px;
+	height: 306px;
+}
+
+#button1 {
+	cursor: pointer;
+}
+
+#button2 {
+	cursor: pointer;
+}
+
+#button3 {
+	cursor: pointer;
+}
+#footer{
+    box-sizing: border-box;
+    padding: 50px 0px;
+    height: 300px;
+    background-color:#F2F2F2 ;
+
+}
+.inner_footer{
+    margin: 0 auto;
+    width: 1320px;
+}
+.footer_link{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_link li{
+    cursor: pointer;
+}
+.strong{
+    padding: 10px 0px;
+    width: 260px;
+    border-bottom: 1px solid black;
+    margin:10px 0px;
+}
+.footer_sns{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_sns>ul{
+    display: flex;
+}
+.footer_sns>ul> li{
+    display: flex;
+    padding-bottom: 10px;
+}
+.footer_sns>ul> li{
+    margin: 5px 5px;
+}
+.service_wrap li img{
+	display: block;
+}
+.strong{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sns_hand img{
+    width: 431px;
+    height: 306px;
+}
+.sns_list> ul{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+}
+.sns_right{
+    display: flex;
+    align-items: center;
+    height: 720px;
+}
+
+.sns_list> ul{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+}
+.social_sns> li{
+    opacity: 0.5;
+}
+.social_sns> li:hover{
+    opacity: 1;
+}
+
+
+
+button{
+	border: none;
+	width: 70px;
+	height:70px;
+	cursor: pointer;
+	position: absolute;
+	right: 220px;
+	color: white;
+
+}
+.btn1{
+	top: 3320px;
+	background:rgb(159, 110, 120);
+	opacity: 0.5;
+}
+.btn1:hover{
+	opacity: 1;
+}
+
+.btn2{
+	top: 5746px;
+	background:rgb(117, 147, 140);
+	opacity: 0.5;
+}
+.btn2:hover{
+	opacity: 1;
+}
+
+.btn3{
+	bottom:565px;
+	opacity: 0.5;
+	background:rgb(121, 92, 122);
+}
+.btn3:hover{
+	opacity: 1;
+}
