@@ -387,6 +387,7 @@ span{
     margin: 0px 20px;
 }
 #footer{
+    margin-top: 200px;
     box-sizing: border-box;
     padding: 50px 0px;
     height: 300px;
