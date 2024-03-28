@@ -430,6 +430,7 @@ img{
 }
 /* footer */
 #footer{
+border-top: 1px solid black
     box-sizing: border-box;
     padding: 50px 0px;
     height: 300px;
